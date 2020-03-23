@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.1 (Python 3.6.5 on win32)" generated="20190724 16:42:41.134" rpa="false">
+<suite id="s1" name="Tc" source="C:\Users\Administrator\PycharmProjects\软件自动化测试\ccsedu\tc">
+<suite id="s1-s1" name="添加讲师" source="C:\Users\Administrator\PycharmProjects\软件自动化测试\ccsedu\tc\添加讲师.robot">
+<kw name="Openb Rowser" library="pylib.webLib" type="setup">
+<status status="PASS" starttime="20190724 16:42:41.427" endtime="20190724 16:42:48.195"></status>
+</kw>
+<test id="s1-s1-t1" name="添加讲师 - tc001">
+<kw name="Login" library="pylib.webLib">
+<arguments>
+<arg>zhangqingqin</arg>
+<arg>1qaz@WSX</arg>
+</arguments>
+<msg timestamp="20190724 16:42:48.200" level="FAIL">AttributeError: 'webLib' object has no attribute 'wd'</msg>
+<status status="FAIL" starttime="20190724 16:42:48.199" endtime="20190724 16:42:48.202"></status>
+</kw>
+<status status="FAIL" starttime="20190724 16:42:48.195" endtime="20190724 16:42:48.202" critical="yes">AttributeError: 'webLib' object has no attribute 'wd'</status>
+</test>
+<status status="FAIL" starttime="20190724 16:42:41.238" endtime="20190724 16:42:48.212"></status>
+</suite>
+<status status="FAIL" starttime="20190724 16:42:41.146" endtime="20190724 16:42:48.219"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Tc">Tc</stat>
+<stat pass="0" fail="1" id="s1-s1" name="添加讲师">Tc.添加讲师</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

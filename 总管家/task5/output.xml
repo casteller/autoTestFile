@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.1 (Python 3.6.5 on win32)" generated="20190705 14:11:47.919" rpa="false">
+<suite id="s1" name="Tc" source="C:\Users\Administrator\PycharmProjects\软件自动化测试\总管家\task5\tc">
+<suite id="s1-s1" name="用户管理" source="C:\Users\Administrator\PycharmProjects\软件自动化测试\总管家\task5\tc\用户管理">
+<suite id="s1-s1-s1" name="Adduser" source="C:\Users\Administrator\PycharmProjects\软件自动化测试\总管家\task5\tc\用户管理\adduser.robot">
+<test id="s1-s1-s1-t1" name="添加用户-tc001">
+<kw name="Getyzm" library="pylib.userlib">
+<arguments>
+<arg>17358983751</arg>
+</arguments>
+<assign>
+<var>${yzm}</var>
+</assign>
+<msg timestamp="20190705 14:11:49.106" level="INFO">${yzm} = 633236</msg>
+<status status="PASS" starttime="20190705 14:11:48.622" endtime="20190705 14:11:49.106"></status>
+</kw>
+<kw name="Adduser" library="pylib.userlib">
+<arguments>
+<arg>17358983751</arg>
+<arg>3</arg>
+<arg>内部测试1227</arg>
+<arg>内部测试1227</arg>
+<arg>666666</arg>
+<arg>666666</arg>
+<arg>${yzm}</arg>
+</arguments>
+<msg timestamp="20190705 14:11:49.410" level="INFO">注册成功</msg>
+<status status="PASS" starttime="20190705 14:11:49.108" endtime="20190705 14:11:49.410"></status>
+</kw>
+<status status="PASS" starttime="20190705 14:11:48.618" endtime="20190705 14:11:49.412" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20190705 14:11:47.997" endtime="20190705 14:11:49.422"></status>
+</suite>
+<status status="PASS" starttime="20190705 14:11:47.989" endtime="20190705 14:11:49.436"></status>
+</suite>
+<status status="PASS" starttime="20190705 14:11:47.925" endtime="20190705 14:11:49.445"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Tc">Tc</stat>
+<stat pass="1" fail="0" id="s1-s1" name="用户管理">Tc.用户管理</stat>
+<stat pass="1" fail="0" id="s1-s1-s1" name="Adduser">Tc.用户管理.Adduser</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

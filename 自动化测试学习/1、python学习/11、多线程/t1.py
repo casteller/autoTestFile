@@ -1,0 +1,1 @@
+'''炒菜的例子，刚搬家的时候'''from time import ctime, sleepdef chicken():    for i in range(2):        print("我正在做宫保鸡丁~~~~~~~. %s" % ctime())        sleep(2)def fish():    for i in range(2):        print("我正在炒鱼香肉丝~~~~~~~~ %s" % ctime())        sleep(3)if __name__ == '__main__':    chicken()    fish()    print("菜炒好了！！！%s" % ctime())
